@@ -8,16 +8,11 @@ alert(msg);
 console.log(msg);
 
 var msg2;
-if (value > 0)
-{
+if (value > 0) {
     msg2 = 'wynik dodatni';
-}
-else if (value < 0)
-{
+} else if (value < 0) {
     msg2 = 'wynik ujemny';
-}
-else 
-{
+} else {
     msg2 = 'wynik zerowy';
 }
 alert(msg2);
